@@ -43,34 +43,34 @@
         </tr>
         <tr>
             <th>Nama</th>
-            <td>Wahyu Utami</td>
+            <td><?php echo "Wahyu Utami"; ?></td>
         </tr>
         <tr>
             <th>TTL</th>
-            <td>Ketapang, 26 Agustus 2002</td>
+            <td><?php echo "Ketapang, 26 Agustus 2002"; ?></td>
         </tr>
         <tr>
             <th>Jenis Kelamin</th>
-            <td>Perempuan</td>
+            <td><?php echo "Perempuan"; ?></td>
         </tr>
         <tr>
             <th>Alamat</th>
-            <td>Jl. Brigjen Khatamso Kab. Ketapang</td>
+            <td><?php echo "Jl. Brigjen Khatamso Kab. Ketapang"; ?></td>
         </tr>
         <tr>
             <th>Riwayat Pendidikan</th>
             <td>
                 <ul>
-                    <li>SDN 12 Sungai Melayu Rayak</li>
-                    <li>SMPN PGRI Sungai Melayu Rayak</li>
-                    <li>MAN 1 KETAPANG</li>
-                    <li>Politeknik Negeri Ketapang D3 (Teknologi Informasi) </li>
+                    <li><?php echo "SDN 12 Sungai Melayu Rayak"; ?></li>
+                    <li><?php echo "SMPN PGRI Sungai Melayu Rayak"; ?></li>
+                    <li><?php echo "MAN 1 KETAPANG"; ?></li>
+                    <li><?php echo "Politeknik Negeri Ketapang D3 (Teknologi Informasi)"; ?></li>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>Hobby</th>
-            <td>Membaca Novel</td>
+            <td><?php echo "Membaca Novel"; ?></td>
         </tr>
     </table>
 </body>
